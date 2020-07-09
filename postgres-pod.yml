@@ -7,7 +7,7 @@ metadata:
     app: demo-voting-app
 spec:
   replicas: 1
-  selectors:
+  selector:
     matchingLabels:
       name: postgres-pod
       app: demo-voting-app
